@@ -15,13 +15,19 @@ The sunset quality is 49%
 Make sure you have the lib tesseract
 
 **MAC:**
-```brew install tesseract```
+```
+brew install tesseract
+```
 
 **DEBIAN:**
-```sudo apt-get install tesseract-ocr```
+```
+sudo apt-get install tesseract-ocr
+```
 
 **WINDOWS:**
-```pip install tesseract-ocr```
+```
+pip install tesseract-ocr
+```
 
 
 ## HOW does it works ?
