@@ -99,7 +99,7 @@ for id in range(2,11):
         distance = abs(hour_of_validity - sun_crossing_horizon_time_zulu)
         image_to_use = image_name
 
-    print 'hour of validity:'+str(hour_of_validity)
+    #print 'hour of validity:'+str(hour_of_validity)
     #print time_of_validity
 
 

@@ -2,20 +2,26 @@
 Small python program that pull data from sunsetwx.com for Europe only and give a sunset/sunrise quality according to GPS Coordinates.
 
 **USAGE**:
-`sunset.py sunrise 47.164935 -6.825596`
+```
+$ python sunset.py sunrise 47.164935 -6.825596
+Predicting for GPS coordinates: (47.164935, -6.825596)
+sunrise time in zulu: 7
+The sunset quality is 49%
+
+```
 
 
 ## Install
 Make sure you have the lib tesseract
 
 **MAC:**
-`brew install tesseract`
+```brew install tesseract```
 
 **DEBIAN:**
-`sudo apt-get install tesseract-ocr`
+```sudo apt-get install tesseract-ocr```
 
 **WINDOWS:**
-`pip install tesseract-ocr`
+```pip install tesseract-ocr```
 
 
 ## HOW does it works ?
