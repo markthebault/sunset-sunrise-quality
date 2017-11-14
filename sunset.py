@@ -63,7 +63,7 @@ home.lon = str(GPS_COORDS_TO_CHECK[1])
 sun = ephem.Sun()
 sun.compute(home)
 sun_cross_date = home.next_setting(sun) if CHECK_FOR_SUNSET else home.next_rising(sun)
-sun_crossing_horizon_time_zulu = sun_cross_date.datetime().hour
+sun_crossing_horizon_time_zulu = sun_cross_date.datetime().hour + (1 if sun_cross_date.datetime().minute > 30 else 0)
 
 print ("sunset" if CHECK_FOR_SUNSET else "sunrise")+" time in zulu: "+str(sun_crossing_horizon_time_zulu)
 
