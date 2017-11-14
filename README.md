@@ -31,7 +31,7 @@ pip install tesseract-ocr
 
 
 ## HOW does it works ?
-When you go to this (URL)[https://sunsetwx.com/view/?id=5] you will se an image that shows colors for sunset quality.
+When you go to this [URL](https://sunsetwx.com/view/?id=5) you will se an image that shows colors for sunset quality.
 More redish the color is, better sunset you will get. These images are generated very 3 hours according to the GFS Weather model. The validation time is described in ZULU on the top middle of the image. This time is independent of any position (ZULU Time).
 
 The small python program, get the sunset/sunrise time for a GPS coordinates, download a bunch on these images and select the best one for the concerned sunset time.
